@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/img/imagenSitioWeb.png" type="image/x-icon">
+    <title>Contacto</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light navbarTodos">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img class="w-75" src="../assets/img/imagenLogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                <a class="nav-link colorLetra" aria-current="page" href="../index.html">Inicio</a>
+                <a class="nav-link colorLetra" href="../paginas/nosotros.html">Nosotros</a>
+                <a class="nav-link colorLetra" href="../paginas/uneteANosotros.html">Unete a nosotros</a>
+                <a class="nav-link colorLetra" href="../paginas/productos.html">Productos</a>
+                <a class="nav-link active colorLetra" href="../paginas/contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+    </nav>
+
+    <header>
+
+    </header>
+
+    <main class="contenedorContacto">
+        <form class="formulario" action="" method="get">
+            <fieldset class="elementosFormularioContacto">
+               
+                
+                <select class="opciones" name="motivo">
+                    <option value="Consulta">Consulta</option>
+                    <option value="Sugerencia">Sugerencia</option>
+                    <option value="Quiero ser parte">Quiero ser parte</option>
+                </select>
+
+
+
+                <div class="textoContacto">
+                    <h3 class="texto">Con gusto CANVA responderá tus consultas y analizara tus opiniones. Si estas interesado en formar parte de
+                    esta gran comunidad dejamos tus datos y nos pondremos en contacto a
+                    la brevedad</h3>
+                </div>
+
+                <div class="preguntas">
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre" required> 
+
+                    <input type="text" name="apellido" id="apellido" placeholder="Apellido" required>
+
+                    <input type="number" name="Telefono" id="telefono" placeholder="Telefono" required>
+
+                    <input type="email" name="email" id="email" placeholder="email" required>
+
+                </div>
+
+                <textarea class="comentario" name="comentario" id="comentario" cols="30" rows="10" placeholder=" Comentario"></textarea>
+                
+
+
+                <div class="terminosContacto">
+                    <label for="acepto">Acepto terminos y condiciones</label>
+                    <input type="checkbox" name="acepto" value="acepto" required>
+                </div>
+
+
+                <div class="botonEnviar">
+                    <input type="submit" value="Enviar">
+                </div>
+                <div class="botonReiniciar">
+                    <input type="reset" value="Reiniciar el formulario">
+                </div>
+            </fieldset>
+        </form>
+        <br>
+        
+    </main>
+    <aside>
+        
+    </aside>
+    <footer class="footer">
+        <p class="p">&#169 2022 CAMBA</p>
+    </footer>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
